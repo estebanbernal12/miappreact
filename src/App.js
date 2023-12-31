@@ -34,6 +34,7 @@ import Contador from './components/Contador';
 import Compclass from './components/Compclass';
 
  import Menunav from './components/Menunav';
+ import Menunav1 from './components/Menunav1';
 
 
 const  App = () => {
@@ -43,14 +44,15 @@ const  App = () => {
      
       <div className="App-content">
 
-         <Menunav/>
-        <p>Mi app React
-        </p>
+         <Menunav1/>
+        
         {/*<Form/>
         <Bucle/>
-        <Contador/> */
+        <Contador/> 
+         <Compclass name="colon"/>
+        */
         }
-        <Compclass name="colon"/>
+       
 
       </div>
     </div>
