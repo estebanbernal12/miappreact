@@ -26,10 +26,14 @@ export default App;
 */
 
 import React from 'react';
+
 import './App.css';
 import Form from './components/Form';
 import Bucle from './components/Bucle';
 import Contador from './components/Contador';
+import Compclass from './components/Compclass';
+
+ import Menunav from './components/Menunav';
 
 
 const  App = () => {
@@ -37,12 +41,16 @@ const  App = () => {
   return (
     <div className="App">
       <div className="App-content">
+
+         <Menunav/>
         <p>Mi app React
         </p>
-        <Form/>
+        {/*<Form/>
         <Bucle/>
-        <Contador/>
-        
+        <Contador/> */
+        }
+        <Compclass name="colon"/>
+
       </div>
     </div>
   );
