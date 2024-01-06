@@ -35,7 +35,7 @@ import Compclass from './components/Compclass';
 
  import Menunav from './components/Menunav';
  import Menunav1 from './components/Menunav1';
-
+ import Imgfondo from './components/Imgfondo';
 
 const  App = () => {
 
@@ -43,9 +43,9 @@ const  App = () => {
     <div className="App">
      
       <div className="App-content">
-
+         
          <Menunav1/>
-        
+          
         {/*<Form/>
         <Bucle/>
         <Contador/> 
@@ -55,6 +55,10 @@ const  App = () => {
        
 
       </div>
+       <div className="app-body">
+        <Imgfondo/>
+
+       </div>
     </div>
   );
 }
